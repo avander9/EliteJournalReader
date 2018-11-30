@@ -299,8 +299,8 @@
     <Compile Include="Events\FileheaderEvent.cs" />
     <Compile Include="Items\Faction.cs" />
     <Compile Include="Enums\JournalDescriptions.cs" />
-    <Compile Include="Events\JournalEvent.cs" />
-    <Compile Include="Events\JournalEventArgs.cs" />
+    <Compile Include="Events\Base\JournalEvent.cs" />
+    <Compile Include="Events\Base\JournalEventArgs.cs" />
     <Compile Include="JournalWatcher.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EliteJournalReader.Enums;
+using EliteJournalReader.Events.Base;
 using EliteJournalReader.Helpers;
 using EliteJournalReader.Items;
 using Newtonsoft.Json.Linq;

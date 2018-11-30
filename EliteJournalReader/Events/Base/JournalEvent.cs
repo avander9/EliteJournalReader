@@ -2,7 +2,7 @@
 using System.Globalization;
 using Newtonsoft.Json.Linq;
 
-namespace EliteJournalReader.Events
+namespace EliteJournalReader.Events.Base
 {
     public abstract class JournalEvent
     {

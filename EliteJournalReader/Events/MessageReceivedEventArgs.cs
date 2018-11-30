@@ -1,4 +1,5 @@
 ﻿using System;
+using EliteJournalReader.Events.Base;
 using Newtonsoft.Json.Linq;
 
 namespace EliteJournalReader.Events

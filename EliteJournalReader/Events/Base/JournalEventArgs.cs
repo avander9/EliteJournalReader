@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json.Linq;
 
-namespace EliteJournalReader.Events
+namespace EliteJournalReader.Events.Base
 {
     public class JournalEventArgs : EventArgs
     {
