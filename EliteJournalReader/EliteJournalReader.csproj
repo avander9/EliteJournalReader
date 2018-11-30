@@ -100,13 +100,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\EliteG19s\SharedAssemblyInfo.cs">
-      <Link>Properties\SharedAssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="Commodity.cs" />
-    <Compile Include="EngineeredModule.cs" />
-    <Compile Include="EngineeringModifiers.cs" />
-    <Compile Include="EnumHelpers.cs" />
+    <Compile Include="Items\Commodity.cs" />
+    <Compile Include="Items\EngineeredModule.cs" />
+    <Compile Include="Items\EngineeringModifiers.cs" />
+    <Compile Include="Helpers\EnumHelpers.cs" />
     <Compile Include="Events\AfmuRepairsEvent.cs" />
     <Compile Include="Events\FSSAllBodiesFoundEvent.cs" />
     <Compile Include="Events\WonATrophyForSquadronEvent.cs" />
@@ -300,20 +297,20 @@
     <Compile Include="Events\ProgressEvent.cs" />
     <Compile Include="Events\LoadGameEvent.cs" />
     <Compile Include="Events\FileheaderEvent.cs" />
-    <Compile Include="Faction.cs" />
-    <Compile Include="JournalDescriptions.cs" />
-    <Compile Include="JournalEvent.cs" />
-    <Compile Include="JournalEventArgs.cs" />
+    <Compile Include="Items\Faction.cs" />
+    <Compile Include="Enums\JournalDescriptions.cs" />
+    <Compile Include="Events\JournalEvent.cs" />
+    <Compile Include="Events\JournalEventArgs.cs" />
     <Compile Include="JournalWatcher.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Material.cs" />
-    <Compile Include="MessageReceivedEventArgs.cs" />
-    <Compile Include="Mission.cs" />
-    <Compile Include="Module.cs" />
-    <Compile Include="Passenger.cs" />
+    <Compile Include="Items\Material.cs" />
+    <Compile Include="Events\MessageReceivedEventArgs.cs" />
+    <Compile Include="Items\Mission.cs" />
+    <Compile Include="Items\Module.cs" />
+    <Compile Include="Items\Passenger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ranks.cs" />
+    <Compile Include="Enums\Ranks.cs" />
     <Compile Include="StatusWatcher.cs">
       <SubType>Component</SubType>
     </Compile>

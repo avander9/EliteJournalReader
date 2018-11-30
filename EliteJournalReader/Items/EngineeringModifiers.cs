@@ -1,9 +1,10 @@
 ﻿using System;
+using EliteJournalReader.Enums;
+using EliteJournalReader.Helpers;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 
-namespace EliteJournalReader
+namespace EliteJournalReader.Items
 {
     [JsonConverter(typeof(EngineeringModifiersCoverter))]
     public class EngineeringModifiers

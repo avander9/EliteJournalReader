@@ -1,4 +1,4 @@
-﻿namespace EliteJournalReader
+﻿namespace EliteJournalReader.Items
 {
     public class Module
     {

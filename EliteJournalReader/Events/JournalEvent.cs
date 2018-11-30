@@ -1,9 +1,8 @@
 ﻿using System;
-using Newtonsoft.Json.Linq;
-using System.Collections.Generic;
 using System.Globalization;
+using Newtonsoft.Json.Linq;
 
-namespace EliteJournalReader
+namespace EliteJournalReader.Events
 {
     public abstract class JournalEvent
     {
